@@ -19,13 +19,13 @@
 
 4. You can get more specific with your custom alert, by passing in a third parameter which is an object called options.
 
-    `let customAlert = new CustomAlert('your heading', 'and your subheading',` 
-            `{`
-                `//  Custom function for when user confirms`
-                `confirm: function() {`
-                    `console.log('User Has Confirmed')`
-                   ` //  run custom confirm function here`
-                `},`
+    ```let customAlert = new CustomAlert('your heading', 'and your subheading', 
+            {
+                //  Custom function for when user confirms
+                confirm: function() {
+                    console.log('User Has Confirmed')
+                    //  run custom confirm function here
+                },
                 //      Custom function for when user cancels
                 cancel: function() {
                     console.log('User Has Canceled')
@@ -37,4 +37,4 @@
                     // after animation function here
                 }
             }
-    )`
+    )```
