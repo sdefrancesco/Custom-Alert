@@ -1,7 +1,7 @@
 #   Custom Alert
 ### Created By Sebastian Defrancesco
   [http://seb25.com/developers](https://www.seb25.com)
-
+---
    CustomAlert.js is a plugin designed to replace the native javascript confirm option. It comes with many customizeable options. This plugin relies on anime.js 
 
 1. In the head of your html file, include the custom-alert.css file
@@ -20,21 +20,21 @@
 4. You can get more specific with your custom alert, by passing in a third parameter which is an object called options.
 
     `let customAlert = new CustomAlert('your heading', 'and your subheading', 
-        {
-            //  Custom function for when user confirms
-            confirm: function() {
-                console.log('User Has Confirmed')
-                // run custom confirm function here
-            },
-            //  Custom function for when user cancels
-            cancel: function() {
-                console.log('User Has Canceled')
-                // run custom cancel function here
-            },
-            //  Custom function for when alert is closed and animation has ended
-            afterExitAnimation: function() {
-                console.log('animation ended.')
-                // after animation function here
+            {
+                //      Custom function for when user confirms
+                confirm: function() {
+                    console.log('User Has Confirmed')
+                    //  run custom confirm function here
+                },
+                //      Custom function for when user cancels
+                cancel: function() {
+                    console.log('User Has Canceled')
+                    //  run custom cancel function here
+                },
+                //      Custom function for when alert is closed and animation has ended
+                afterExitAnimation: function() {
+                    console.log('animation ended.')
+                    // after animation function here
+                }
             }
-        }
     )`

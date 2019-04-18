@@ -145,21 +145,8 @@ function CustomAlert(name, date, options) {
           customAlert.continuing(function() {
             customAlert.removeAlert(function() {
               console.log('alert removed.')
-              let newAlert = new CustomAlert('IM BACK', 'bitches!', {
-                confirm: function() {
-                  customAlert.removeAlert(function() {
-                    
-                  })
-                },
-                cancel: function() {
-                  customAlert.removeAlert(function() {
-                    
-                  })
-                }
-              })
             })
-          })
-          
+          })  
         },
         cancel: function() {
           iamGosu('user has canceled')
