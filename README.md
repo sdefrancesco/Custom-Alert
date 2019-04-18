@@ -2,7 +2,7 @@
 ### Created By Sebastian Defrancesco
 ### [http://seb25.com/developers](https://www.seb25.com)
 ---
-   CustomAlert.js is a plugin designed to replace the native javascript confirm option. It comes with many customizeable options. This plugin relies on anime.js 
+   **CustomAlert.js is a plugin designed to replace the native javascript confirm option. It comes with many customizeable options. This plugin relies on anime.js** 
 
 1. In the head of your html file, include the custom-alert.css file
 
