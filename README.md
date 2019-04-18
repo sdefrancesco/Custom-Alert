@@ -19,7 +19,8 @@
 
 4. You can get more specific with your custom alert, by passing in a third parameter which is an object called options.
 
-    ```let customAlert = new CustomAlert('your heading', 'and your subheading', 
+    ```
+        let customAlert = new CustomAlert('your heading', 'and your subheading', 
             {
                 //  Custom function for when user confirms
                 confirm: function() {
@@ -37,4 +38,5 @@
                     // after animation function here
                 }
             }
-    )```
+        )
+    ```
