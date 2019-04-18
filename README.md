@@ -8,7 +8,7 @@
 
     `<link rel="stylesheet" href="/Custom-Alert.css">`
 
-2. On the bottom of your html file, include the custom-alert.js file and the anime.js file or cdn. Anime.js must be loaded first for Custom-Alert to work with animations.
+2. On the bottom of your html file, include the custom-alert.js file and the anime.js file or cdn. Anime.js must be loaded first for **Custom Alert** to work with animations.
 
     `<script src='https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js'></script>`
     `<script src='/custom-alert.js'></script>`
@@ -17,7 +17,7 @@
 
    `let customAlert = new CustomAlert('your heading', 'and your subheading')`
 
-4. You can get more specific with your custom alert, by passing in a third parameter which is an object called options.
+4. You can get more specific with **Custom Alert**, by passing in a third parameter which is an object called options.
 
     ```
         let customAlert = new CustomAlert('your heading', 'and your subheading',
@@ -48,7 +48,7 @@
             }
         )
     ```
-5. There are a series of function associated with Custom Alert.
+5. There are a series of function associated with **Custom Alert**.
 
     `let customAlert = new CustomAlert('your heading', 'and your subheading', options)`
 
